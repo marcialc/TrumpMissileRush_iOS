@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="PhosphateInline.ttf">
+            <string>PhosphateInline</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="TutorialSlide" customModule="TrumpRunIOS" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iDZ-PK-fkz">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WATCH OUT" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mQC-vX-oVA">
+                    <rect key="frame" x="100" y="178.5" width="175" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="J6r-CH-Owp"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="PhosphateInline" family="PhosphateInline" pointSize="32"/>
+                    <color key="textColor" red="0.98823529409999999" green="0.98823529409999999" blue="0.98039215690000003" alpha="1" colorSpace="deviceRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FOR INCOMING" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sls-NJ-eQW">
+                    <rect key="frame" x="81" y="228.5" width="213" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="Q92-j4-Hb2"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="PhosphateInline" family="PhosphateInline" pointSize="32"/>
+                    <color key="textColor" red="0.98823529409999999" green="0.98823529409999999" blue="0.98039215690000003" alpha="1" colorSpace="deviceRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MISSLES AND JUMP" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bH8-SD-bcm">
+                    <rect key="frame" x="58.5" y="278.5" width="256.5" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="Duz-6f-Fh5"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="PhosphateInline" family="PhosphateInline" pointSize="32"/>
+                    <color key="textColor" red="0.98823529409999999" green="0.98823529409999999" blue="0.98039215690000003" alpha="1" colorSpace="deviceRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="OVER OBSTACLES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qak-Hv-fdd">
+                    <rect key="frame" x="70" y="328.5" width="234" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="ilh-dq-WTI"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="PhosphateInline" family="PhosphateInline" pointSize="32"/>
+                    <color key="textColor" red="0.98823529409999999" green="0.98823529409999999" blue="0.98039215690000003" alpha="1" colorSpace="deviceRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TO GAIN POINTS!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gkf-s6-NZT">
+                    <rect key="frame" x="70" y="378.5" width="235" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="SGW-At-alW"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="PhosphateInline" family="PhosphateInline" pointSize="32"/>
+                    <color key="textColor" red="0.98823529409999999" green="0.98823529409999999" blue="0.98039215690000003" alpha="1" colorSpace="deviceRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="mQC-vX-oVA" secondAttribute="trailing" constant="100" id="0dG-Fi-inZ"/>
+                <constraint firstItem="mQC-vX-oVA" firstAttribute="centerX" secondItem="vUN-kp-3ea" secondAttribute="centerX" id="4C7-XI-CHP"/>
+                <constraint firstItem="bH8-SD-bcm" firstAttribute="centerX" secondItem="Sls-NJ-eQW" secondAttribute="centerX" id="9h5-vV-8kt"/>
+                <constraint firstItem="mQC-vX-oVA" firstAttribute="centerY" secondItem="vUN-kp-3ea" secondAttribute="centerY" constant="-140" id="DGB-k8-dbF"/>
+                <constraint firstItem="mQC-vX-oVA" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="100" id="GAY-s6-Dmp"/>
+                <constraint firstItem="Sls-NJ-eQW" firstAttribute="centerX" secondItem="mQC-vX-oVA" secondAttribute="centerX" id="LPd-9T-hW0"/>
+                <constraint firstItem="Qak-Hv-fdd" firstAttribute="top" secondItem="bH8-SD-bcm" secondAttribute="bottom" id="PBY-ha-WcO"/>
+                <constraint firstItem="gkf-s6-NZT" firstAttribute="centerX" secondItem="Qak-Hv-fdd" secondAttribute="centerX" id="Xpr-fL-GTj"/>
+                <constraint firstItem="Qak-Hv-fdd" firstAttribute="centerX" secondItem="bH8-SD-bcm" secondAttribute="centerX" id="b9t-OO-iby"/>
+                <constraint firstItem="gkf-s6-NZT" firstAttribute="top" secondItem="Qak-Hv-fdd" secondAttribute="bottom" id="cSy-cs-tjI"/>
+                <constraint firstItem="Sls-NJ-eQW" firstAttribute="top" secondItem="mQC-vX-oVA" secondAttribute="bottom" id="rHX-1x-Fk6"/>
+                <constraint firstItem="bH8-SD-bcm" firstAttribute="top" secondItem="Sls-NJ-eQW" secondAttribute="bottom" id="z5e-a4-Kh0"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="backgroundViewTwo" destination="iDZ-PK-fkz" id="guL-GG-Ap2"/>
+            </connections>
+            <point key="canvasLocation" x="33.5" y="77.5"/>
+        </view>
+    </objects>
+</document>

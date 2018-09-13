@@ -1,0 +1,6 @@
+framework module Pods_TrumpRunIOSUITests {
+  umbrella header "Pods-TrumpRunIOSUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
